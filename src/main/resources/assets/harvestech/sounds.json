@@ -1,0 +1,176 @@
+{
+  "work": {
+    "category": "blocks",
+    "sounds": [
+      {
+        "name": "harvestech:work",
+        "stream": true
+      }
+    ]
+  },
+  "berserk": {
+    "category": "blocks",
+    "sounds": [
+      {
+        "name": "harvestech:berserk",
+        "stream": true
+      }
+    ]
+  },
+  "stop": {
+    "category": "blocks",
+    "sounds": [
+      "harvestech:stop"
+    ]
+  },
+  "crush": {
+    "category": "blocks",
+    "sounds": [
+      "harvestech:crush"
+    ]
+  },
+  "hit": {
+    "category": "blocks",
+    "sounds": [
+      "harvestech:hit"
+    ]
+  },
+  "cable": {
+    "category": "blocks",
+    "sounds": [
+      "harvestech:cable"
+    ]
+  },
+  "machinedone": {
+    "category": "blocks",
+    "sounds": [
+      "harvestech:machinedone"
+    ]
+  },
+  "distiller_work": {
+    "category": "blocks",
+    "sounds": [
+      "harvestech:distiller_work"
+    ]
+  },
+  "distiller_stop": {
+    "category": "blocks",
+    "sounds": [
+      "harvestech:distiller_stop"
+    ]
+  },
+  "distiller_steam": {
+    "category": "blocks",
+    "sounds": [
+      "harvestech:distiller_steam"
+    ]
+  },
+  "protein_former": {
+    "category": "blocks",
+    "sounds": [
+      "harvestech:protein_former"
+    ]
+  },
+  "blender": {
+    "category": "blocks",
+    "sounds": [
+      "harvestech:blender"
+    ]
+  },
+  "separator": {
+    "category": "blocks",
+    "sounds": [
+      "harvestech:separator"
+    ]
+  },
+  "enrich_chamber_work": {
+    "category": "blocks",
+    "sounds": [
+      "harvestech:enrich_chamber_work"
+    ]
+  },
+  "enrich_chamber_stop": {
+    "category": "blocks",
+    "sounds": [
+      "harvestech:enrich_chamber_stop"
+    ]
+  },
+  "manual_harvest": {
+    "category": "players",
+    "sounds": [
+      {
+        "name": "harvestech:manual_harvest",
+        "stream": true
+      }
+    ]
+  },
+  "usual_luch": {
+    "category": "players",
+    "sounds": [
+      {
+        "name": "harvestech:usual_luch",
+        "stream": true
+      }
+    ]
+  },
+  "mega_luch": {
+    "category": "players",
+    "sounds": [
+      {
+        "name": "harvestech:mega_luch",
+        "stream": true
+      }
+    ]
+  }
+,
+  "centrifuge_1speed": {
+    "category": "blocks",
+    "sounds": [
+      {
+        "name": "harvestech:centrifuge_1speed",
+        "stream": true
+      }
+    ]
+  },
+  "centrifuge_2speed": {
+    "category": "blocks",
+    "sounds": [
+      {
+        "name": "harvestech:centrifuge_2speed",
+        "stream": true
+      }
+    ]
+  },
+  "centrifuge_3speed": {
+    "category": "blocks",
+    "sounds": [
+      {
+        "name": "harvestech:centrifuge_3speed",
+        "stream": true
+      }
+    ]
+  },
+  "centrifuge_4speed": {
+    "category": "blocks",
+    "sounds": [
+      {
+        "name": "harvestech:centrifuge_4speed",
+        "stream": true
+      }
+    ]
+  },
+  "centrifuge_5speed": {
+    "category": "blocks",
+    "sounds": [
+      {
+        "name": "harvestech:centrifuge_5speed",
+        "stream": true
+      }
+    ]
+  },
+  "centrifuge_stop": {
+    "category": "blocks",
+    "sounds": [
+      "harvestech:centrifuge_stop"
+    ]
+  }}

@@ -1,0 +1,75 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.semencentrifuge",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 14, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [8, 0], "uv_size": [7, 5]},
+								"east": {"uv": [16, 5], "uv_size": [7, 5]},
+								"south": {"uv": [17, 5], "uv_size": [7, 5]},
+								"west": {"uv": [8, 0], "uv_size": [7, 5]},
+								"up": {"uv": [16, 0], "uv_size": [7, 7]},
+								"down": {"uv": [16, 14], "uv_size": [7, -7]}
+							}
+						},
+						{
+							"origin": [-8, 16, 7],
+							"size": [16, 2, 1],
+							"uv": {
+								"north": {"uv": [16, 5], "uv_size": [7, 5]},
+								"east": {"uv": [16, 5], "uv_size": [7, 5]},
+								"south": {"uv": [16, 5], "uv_size": [7, 5]},
+								"west": {"uv": [16, 5], "uv_size": [7, 5]},
+								"up": {"uv": [16, 4], "uv_size": [7, 7]},
+								"down": {"uv": [16, 10], "uv_size": [7, -7]}
+							}
+						},
+						{
+							"origin": [-8, 16, -8],
+							"size": [16, 2, 1],
+							"uv": {
+								"north": {"uv": [16, 6], "uv_size": [7, 5]},
+								"east": {"uv": [16, 6], "uv_size": [7, 5]},
+								"south": {"uv": [16, 7], "uv_size": [7, 5]},
+								"west": {"uv": [16, 7], "uv_size": [7, 5]},
+								"up": {"uv": [16, 4], "uv_size": [7, 7]},
+								"down": {"uv": [16, 10], "uv_size": [7, -7]}
+							}
+						},
+						{
+							"origin": [7, 16, -7],
+							"size": [1, 2, 14],
+							"uv": {
+								"north": {"uv": [17, 5], "uv_size": [7, 5]},
+								"east": {"uv": [17, 5], "uv_size": [7, 5]},
+								"south": {"uv": [17, 5], "uv_size": [7, 5]},
+								"west": {"uv": [17, 5], "uv_size": [7, 5]},
+								"up": {"uv": [16, 5], "uv_size": [7, 7]},
+								"down": {"uv": [17, 12], "uv_size": [7, -7]}
+							}
+						},
+						{"origin": [7, 0, -8], "size": [1, 14, 1], "uv": [20, 1]},
+						{"origin": [7, 0, 7], "size": [1, 14, 1], "uv": [20, 1]},
+						{"origin": [-8, 0, -8], "size": [1, 14, 1], "uv": [20, 1]},
+						{"origin": [-8, 0, 7], "size": [1, 14, 1], "uv": [20, 1]}
+					]
+				}
+			]
+		}
+	]
+}

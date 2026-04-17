@@ -1,0 +1,16 @@
+[
+	{
+		"modid": "harvestech",
+		"name": "harvestech",
+		"description": "Mod for parasites, tech and lots of Sex and Fapping!",
+		"version": "${version}",
+		"mcversion": "1.12.2",
+		"url": "",
+		"updateUrl": "",
+		"authorList": ["Ogryzok"],
+		"credits": "",
+		"logoFile": "",
+		"screenshots": [],
+		"dependencies": []
+	}
+]

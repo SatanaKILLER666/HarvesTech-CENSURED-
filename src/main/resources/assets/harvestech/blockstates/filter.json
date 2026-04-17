@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "harvestech:filter" },
+    "facing=south": { "model": "harvestech:filter", "y": 180 },
+    "facing=west":  { "model": "harvestech:filter", "y": 270 },
+    "facing=east":  { "model": "harvestech:filter", "y": 90 }
+  }
+}

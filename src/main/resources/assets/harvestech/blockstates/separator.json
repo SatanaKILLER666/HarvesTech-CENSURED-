@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,assembled=false": { "model": "harvestech:separator" },
+    "facing=south,assembled=false": { "model": "harvestech:separator", "y": 180 },
+    "facing=west,assembled=false":  { "model": "harvestech:separator", "y": 270 },
+    "facing=east,assembled=false":  { "model": "harvestech:separator", "y": 90 },
+    "facing=north,assembled=true": { "model": "harvestech:separator" },
+    "facing=south,assembled=true": { "model": "harvestech:separator", "y": 180 },
+    "facing=west,assembled=true":  { "model": "harvestech:separator", "y": 270 },
+    "facing=east,assembled=true":  { "model": "harvestech:separator", "y": 90 }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,powered=false": { "model": "harvestech:life_crusher" },
+    "facing=south,powered=false": { "model": "harvestech:life_crusher", "y": 180 },
+    "facing=west,powered=false":  { "model": "harvestech:life_crusher", "y": 270 },
+    "facing=east,powered=false":  { "model": "harvestech:life_crusher", "y": 90 },
+    "facing=north,powered=true":  { "model": "harvestech:life_crusher" },
+    "facing=south,powered=true":  { "model": "harvestech:life_crusher", "y": 180 },
+    "facing=west,powered=true":   { "model": "harvestech:life_crusher", "y": 270 },
+    "facing=east,powered=true":   { "model": "harvestech:life_crusher", "y": 90 }
+  }
+}

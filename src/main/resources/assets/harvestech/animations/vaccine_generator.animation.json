@@ -1,0 +1,65 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"vaccine_gen_start": {
+			"animation_length": 2.4583,
+			"anim_time_update": 1,
+			"blend_weight": 1,
+			"start_delay": 0,
+			"bones": {
+				"part_dvig": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"2.4583": {
+							"vector": [0, -360, 0],
+							"easing": "easeInCubic"
+						}
+					}
+				}
+			}
+		},
+		"vaccine_gen_work": {
+			"loop": true,
+			"animation_length": 0.5,
+			"anim_time_update": 1,
+			"blend_weight": 1,
+			"start_delay": 0,
+			"loop_delay": 0,
+			"bones": {
+				"part_dvig": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, -355, 0]
+						}
+					}
+				}
+			}
+		},
+		"vaccine_gen_stop": {
+			"loop": true,
+			"animation_length": 4.5,
+			"anim_time_update": 1,
+			"blend_weight": 1,
+			"start_delay": 0,
+			"loop_delay": 0,
+			"bones": {
+				"part_dvig": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"4.5": {
+							"vector": [0, -1440, 0],
+							"easing": "easeOutExpo"
+						}
+					}
+				}
+			}
+		}
+	}
+}

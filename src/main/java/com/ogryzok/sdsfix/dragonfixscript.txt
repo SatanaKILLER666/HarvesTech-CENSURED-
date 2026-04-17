@@ -1,0 +1,115 @@
+// лучшая рабочая версия скрипта RqFr_MolecularTransformerClient.zs для дракониего саммонера
+
+#priority 10
+#loader crafttweaker reloadable
+
+import mods.requious.Assembly;
+import mods.requious.ComponentFace;
+import mods.requious.SlotVisual;
+import mods.requious.GaugeDirection;
+import mods.requious.AssemblyRecipe;
+import mods.requious.RecipeContainer;
+
+var sds = Assembly.get("spatial_dragon_summoner");
+
+sds.setSlots(10, 3);
+
+// OUTPUT SLOTS
+for x in 2 to 8 {
+    for y in 0 to 2 {
+        sds.setItemSlot(x, y, ComponentFace.all(), 64)
+            .setAccess(false, true)
+            .setHandAccess(false, true)
+            .setGroup("output")
+            .pushItem(64);
+    }
+}
+
+// INPUT SLOT
+sds.setItemSlot(0, 0, ComponentFace.all(), 64)
+    .setAccess(true, true)
+    .setHandAccess(true, true)
+    .setGroup("input")
+    .setFilter(
+        <minecraft:end_crystal>
+        | <contenttweaker:chaos_end_crystal>
+    )
+    .pushItem(64);
+
+// BOW SLOT
+sds.setItemSlot(0, 1, ComponentFace.all(), 1)
+    .setAccess(true, true)
+    .setHandAccess(true, true)
+    .setGroup("bown")
+    .setBackground(SlotVisual.createSimple(
+        "requious:textures/gui/spatial_dragon_summoner.png",
+        2,
+        11
+    ))
+    .pushItem(1);
+
+// UPGRADE SLOT
+sds.setItemSlot(0, 2, ComponentFace.all(), 1)
+    .setAccess(true, true)
+    .setHandAccess(true, true)
+    .setGroup("upgrade")
+    .setBackground(SlotVisual.createSimple(
+        "requious:textures/gui/electric_spawner_parts.png",
+        1,
+        2
+    ))
+    .pushItem(1);
+
+// ENERGY SLOT
+sds.setEnergySlot(9, 0, ComponentFace.all(), 500000000)
+    .setAccess(true, true)
+    .setLimits(5000000, 0)
+    .setUnit("fe")
+    .allowBattery(true, true, true, true, null)
+    .setBackground(SlotVisual.create(1, 3))
+    .setForeground(SlotVisual.createGauge(
+        "requious:textures/gui/spatial_dragon_summoner.png",
+        0, 11, 1, 11,
+        GaugeDirection.up(),
+        false,
+        1,
+        3,
+        [255,255,255]
+    ))
+    .setGroup("feInput");
+
+// TIMER SLOT
+sds.setDurationSlot(9, 2)
+    .setHidden()
+    .setGroup("timer");
+
+// JEI
+sds.addJEICatalyst(<requious:spatial_dragon_summoner>);
+sds.setJEIItemSlot(0, 0, "input");
+sds.setJEIEnergySlot(4, 0, "feInput", "fe");
+
+// несколько output-слотов для JEI
+sds.setJEIItemSlot(8, 0, "output");
+sds.setJEIItemSlot(9, 0, "output");
+sds.setJEIItemSlot(10, 0, "output");
+
+// JEI recipe: normal
+var jeiBase = AssemblyRecipe.create(function(container as RecipeContainer) {
+    container.addItemOutput("output", <draconicevolution:dragon_heart> * 1, 1);
+    container.addItemOutput("output", <minecraft:dragon_egg> * 1, 1);
+    container.addItemOutput("output", <minecraft:dragon_breath> * 16, 1);
+});
+jeiBase.requireItem("input", <minecraft:end_crystal> * 4);
+jeiBase.requireEnergy("feInput", 140000000, null);
+jeiBase.requireDuration("timer", 100);
+sds.addJEIRecipe(jeiBase);
+
+// JEI recipe: chaos
+var jeiChaos = AssemblyRecipe.create(function(container as RecipeContainer) {
+    container.addItemOutput("output", <draconicevolution:dragon_heart> * 1, 1);
+    container.addItemOutput("output", <draconicevolution:chaos_shard> * 5, 1);
+});
+jeiChaos.requireItem("input", <contenttweaker:chaos_end_crystal> * 4);
+jeiChaos.requireEnergy("feInput", 500000000, null);
+jeiChaos.requireDuration("timer", 100);
+sds.addJEIRecipe(jeiChaos);

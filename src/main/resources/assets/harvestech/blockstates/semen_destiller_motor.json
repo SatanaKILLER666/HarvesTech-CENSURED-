@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "harvestech:semen_destiller_motor" },
+    "facing=south": { "model": "harvestech:semen_destiller_motor", "y": 180 },
+    "facing=west":  { "model": "harvestech:semen_destiller_motor", "y": 270 },
+    "facing=east":  { "model": "harvestech:semen_destiller_motor", "y": 90 }
+  }
+}

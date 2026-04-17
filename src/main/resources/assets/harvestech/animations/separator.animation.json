@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"separator_work": {
+			"loop": true,
+			"animation_length": 1,
+			"anim_time_update": 1,
+			"blend_weight": 1,
+			"start_delay": 0,
+			"loop_delay": 0,
+			"bones": {
+				"ventil": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, -270, 0]
+						}
+					}
+				}
+			}
+		}
+	}
+}

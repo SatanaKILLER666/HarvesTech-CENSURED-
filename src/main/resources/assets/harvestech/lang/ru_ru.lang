@@ -1,0 +1,217 @@
+item.harvestech.life_crusher_base.name=Основа кинетического дуплодёра
+item.harvestech.life_crusher_rod.name=Дилдо-кранштейн
+item.harvestech.copper_wires.name=Медные провода
+tile.harvestech.life_crusher.name=Кинетический дуплодёр
+item.harvestech.bayonet.name=Дилдак
+effect.harvestech.stupor=Продупление
+tooltip.harvestech.bayonet.knockback=Резиновое сотрясение I
+tooltip.harvestech.bayonet.stupor=Продупление 00:03
+tile.harvestech.chair.name=Стул
+tile.harvestech.semen_centrifuge_base.name=Основание центрифуги спермы
+tile.harvestech.semen_centrifuge_motor.name=Мотор центрифуги спермы
+container.harvestech.semen_centrifuge_base=Центрифуга спермы
+container.harvestech.semen_centrifuge_motor=Мотор центрифуги спермы
+item.can.name=Пустая банка
+item.biomass_can.name=Банка семени
+item.distilled_biomass_can.name=Банка дистиллированной биомассы
+item.enriched_biomass_can.name=Банка обогащенной биомассы
+item.protein_biomass.name=Белковая биомасса
+item.protein_rissole.name=Белковая котлета
+item.protein_steak.name=Белковый стейк
+item.protein_burger.name=Белковый бургер
+tile.harvestech.semen_destiller_base.name=Основание дистиллятора биомассы
+tile.harvestech.semen_destiller_motor.name=Мотор дистиллятора биомассы
+container.harvestech.semen_destiller=Дистиллятор биомассы
+tile.harvestech.semen_enrichment_chamber.name=Камера обогащения биомассы
+container.harvestech.semen_enrichment_chamber=Камера обогащения биомассы
+tile.harvestech.pallet.name=Поддон
+tile.harvestech.biomass_residue.name=Частицы биомассы
+item.dirty_biomass.name=Банка грязной биомассы
+key.harvestech.manual_harvest=Ручной сбор
+item.filter_hopper.name=Воронка семенного фильтра
+tile.harvestech.filter_base.name=Семенной фильтр
+
+tile.harvestech.separator.name=Основание сепаратора
+
+item.wooden_jar.name=Кадушка
+item.biomass_jar.name=Кадушка семени
+item.distilled_biomass_jar.name=Кадушка дистиллированного семени
+item.enriched_biomass_jar.name=Кадушка обогащённого семени
+item.dirty_biomass_wooden_jar.name=Кадушка грязной биомассы
+item.harvestech.wooden_jar.name=Кадушка
+item.harvestech.biomass_jar.name=Кадушка семени
+item.harvestech.distilled_biomass_jar.name=Кадушка дистиллированного семени
+item.harvestech.enriched_biomass_jar.name=Кадушка обогащённого семени
+item.harvestech.dirty_biomass_wooden_jar.name=Кадушка грязной биомассы
+tile.harvestech.protein_former.name=Белковый гранулятор
+container.harvestech.protein_former=Белковый гранулятор
+
+
+item.harvestech.aids_vaccine.name=Вакцина "Анти-СПИД"
+effect.harvestech.hiv=ВИЧ
+effect.harvestech.aids_stage_1=СПИД I
+effect.harvestech.aids_stage_2=СПИД II
+effect.harvestech.vegetable=Живой труп
+
+fluid.harvestech.semen=Семя
+item.harvestech.evaporated_biomass.name=Выпаренная биомасса
+item.evaporated_biomass.name=Выпаренная биомасса
+
+item.harvestech.biomass_can.name=Банка семени
+
+item.harvestech.syringe.name=Шприц
+
+item.syringe.name=Шприц
+
+tile.harvestech.rotting_tank.name=Бак гниения
+tile.rotting_tank.name=Бак гниения
+
+fluid.harvestech.fermented_semen=Ферментированное семя
+
+tile.harvestech.blender.name=Блендер
+container.harvestech.blender=Блендер
+fluid.harvestech.toxic_flesh=Токсичная плоть
+fluid.harvestech.distilled_fermented_semen=Дистиллированное ферментированное семя
+fluid.harvestech.necro_substrate=Некро-субстракт
+
+fluid.harvestech.bio_toxin=Био-токсин
+
+item.harvestech.toxic_biomass.name=Токсичная биомасса
+item.toxic_biomass.name=Токсичная биомасса
+tile.harvestech.mrna_synthesizer.name=Синтезатор мРНК
+fluid.harvestech.aids_vaccine_fluid=Вакцина от СПИДа
+item.harvestech.distilled_biomass_can.name=Банка дистиллированного семени
+item.harvestech.enriched_biomass_can.name=Банка обогащённого семени
+fluid.harvestech.distilled_biomass=Дистиллированное семя
+fluid.harvestech.enriched_biomass=Обогащённое семя
+item.forge.bucketFilled.name=Ведро %s
+fluid.forge.bucketFilled.semen=Ведро семени
+fluid.forge.bucketFilled.distilled_biomass=Ведро дистиллированного семени
+fluid.forge.bucketFilled.enriched_biomass=Ведро обогащённого семени
+fluid.forge.bucketFilled.fermented_semen=Ведро ферментированного семени
+fluid.forge.bucketFilled.distilled_fermented_semen=Ведро дистиллированного ферментированного семени
+fluid.forge.bucketFilled.aids_vaccine_fluid=Ведро вакцины от СПИДа
+
+item.manual_collection_icon.name=Ручной сбор
+
+
+gui.harvestech.common.input=Вход
+gui.harvestech.common.output=Выход
+gui.harvestech.common.inventory=Инвентарь
+gui.harvestech.common.empty=Пусто
+gui.harvestech.common.water=Вода
+gui.harvestech.common.fluid=Жидкость
+gui.harvestech.common.ic2_biomass=Жидкая биомасса IC2
+
+gui.harvestech.blender.title=Блендер
+gui.harvestech.protein_former.title=Белковый гранулятор
+gui.harvestech.destiller.title=Дистиллятор семени
+gui.harvestech.destiller.input=Биомасса
+gui.harvestech.destiller.output=Дистиллят
+gui.harvestech.enrichment.title=Камера обогащения семени
+gui.harvestech.enrichment.enriched_short=Обогащ.
+gui.harvestech.separator.title=Основание сепаратора
+gui.harvestech.separator.main_product=Главный продукт
+gui.harvestech.separator.waste=Остаток
+gui.harvestech.mrna.title=Синтезатор мРНК
+gui.harvestech.mrna.fillers=Наполнители
+gui.harvestech.mrna.antigens=Антигены
+gui.harvestech.mrna.syringes=Шприцы
+gui.harvestech.centrifuge.title=Центрифуга семени
+gui.harvestech.centrifuge.warning.line1=При переполнении возбуждения (100%%),
+gui.harvestech.centrifuge.warning.line2=произойдет неконтролируемый выброс!
+gui.harvestech.centrifuge.center.take=ЗАБЕРИ
+gui.harvestech.centrifuge.center.next_wave=СЛЕДУЮЩАЯ ВОЛНА
+gui.harvestech.centrifuge.center.fail=СБОЙ
+gui.harvestech.centrifuge.center.ready=ГОТОВО
+gui.harvestech.centrifuge.status.take_now=Забрать %s mB прямо сейчас - CTRL
+gui.harvestech.centrifuge.status.press_start=Нажми START для запуска
+gui.harvestech.centrifuge.status.not_enough_matter=Недостаточно материи
+gui.harvestech.centrifuge.status.controls=SPACE = стоп чек / CTRL = забрать
+gui.harvestech.life_crusher.title=Кинетический дуплодёр
+gui.harvestech.life_crusher.work_window=Окно долбёжки
+gui.harvestech.life_crusher.status=Статус
+gui.harvestech.life_crusher.mode=Мод
+gui.harvestech.life_crusher.mode.berserk=БЕРСЕРК
+gui.harvestech.life_crusher.mode.normal=НОРМАЛЬНЫЙ
+gui.harvestech.life_crusher.mode.berserk_lower=берсерк
+gui.harvestech.life_crusher.mode.normal_lower=нормальный
+gui.harvestech.life_crusher.accumulator_overloaded=Накопитель переполнен
+gui.harvestech.life_crusher.load=Нагрузка
+gui.harvestech.life_crusher.drive_active=Привод активен
+gui.harvestech.life_crusher.drive_stopped=Привод остановлен
+gui.harvestech.life_crusher.state.idle=ожидание
+gui.harvestech.life_crusher.state.working=работает
+gui.harvestech.life_crusher.state.stopping=остановка
+
+jei.harvestech.category.blender=Блендер
+jei.harvestech.category.destiller=Дистиллятор
+jei.harvestech.category.destiller_fill=Дистиллятор: наполнение
+jei.harvestech.category.enrichment=Камера обогащения
+jei.harvestech.category.enrichment_fill=Камера обогащения: наполнение
+jei.harvestech.category.manual_collection=Ручной сбор
+jei.harvestech.category.pallet_collection=Поддон
+jei.harvestech.category.centrifuge_fill=Центрифуга семени: наполнение
+jei.harvestech.category.rotting_tank=Бак гниения
+jei.harvestech.category.separator=Сепаратор биомассы
+jei.harvestech.category.mrna_synth=Синтезатор мРНК
+jei.harvestech.category.mrna_fill=Синтезатор мРНК: шприцы
+jei.harvestech.manual_collection.base=Начни осуществлять ручной сбор на Shift + ↑, и в течение 15 секунд ты получишь лужицу грязной биомассы.
+jei.harvestech.manual_collection.can=Нажми ПКМ банкой, чтобы её собрать.
+jei.harvestech.manual_collection.jar=Нажми ПКМ кадушкой, чтобы её собрать.
+jei.harvestech.pallet_collection.base=Сделав ручной сбор в поддон, ты сможешь собрать 2 наполненные ёмкости.
+jei.harvestech.pallet_collection.can=Результат: 2 банки семени.
+jei.harvestech.pallet_collection.jar=Результат: 2 кадушки семени.
+jei.harvestech.rotting_tank.time=Гниение: %d:%02d
+jei.harvestech.rotting_tank.close_wait_1=Закрой бак и дождись
+jei.harvestech.rotting_tank.close_wait_2=завершения процесса
+
+item.harvestech.protein_biomass.name=Белковая биомасса
+
+item.harvestech.protein_steak.name=Белковый стейк
+
+gui.harvestech.centrifuge.center.space=ПРОБЕЛ
+gui.harvestech.centrifuge.status.round=Раунд %s
+gui.harvestech.centrifuge.status.round_check=Раунд %1$s / проверка %2$s из %3$s
+gui.harvestech.centrifuge.status.collect_prompt=Нажми CTRL, чтобы забрать
+gui.harvestech.centrifuge.status.collect_result_countdown=Забери результат: %s... CTRL
+gui.harvestech.centrifuge.status.completed=Завершено: +%s mB биомассы
+gui.harvestech.centrifuge.status.auto_finish=Автозавершение: +%s mB биомассы
+gui.harvestech.centrifuge.status.reward=+%s mB биомассы
+gui.harvestech.centrifuge.status.result_zero=Результат: 0
+gui.harvestech.centrifuge.status.not_enough_energy=Недостаточно энергии
+gui.harvestech.centrifuge.status.machine_not_assembled=Механизм не собран
+gui.harvestech.centrifuge.status.sit_on_chair=Сядь на стул перед центрифугой
+gui.harvestech.centrifuge.status.already_running=Уже запущено
+gui.harvestech.centrifuge.status.matter_storage_not_found=Хранилище материи не найдено
+gui.harvestech.centrifuge.status.operation_started=Операция запущена
+gui.harvestech.centrifuge.status.load_failed=Нагрузка 100%%: результат потерян
+gui.harvestech.centrifuge.status.round_failed=Раунд провален: результат потерян
+gui.harvestech.centrifuge.status.failure=Сбой
+
+gui.harvestech.centrifuge.status.assembly_broken=Сборка нарушена
+gui.harvestech.centrifuge.status.operator_lost=Оператор потерян
+gui.harvestech.centrifuge.status.collect_timeout=Не успел забрать вовремя: результат потерян
+item.harvestech.male_power_steroid.name=Стероид "Мужская мощь"
+item.male_power_steroid.name=Стероид "Мужская мощь"
+fluid.male_power_steroid_fluid=Жидкий стероид M.P.
+fluid.harvestech.male_power_steroid_fluid=Жидкий стероид M.P.
+fluid.forge.bucketFilled.male_power_steroid_fluid=Ведро жидкого стероида M.P.
+
+effect.harvestech.male_power=Мужская мощь
+effect.harvestech.seed_keeper=Хранитель семени
+state.harvestech.abstinence_1=Воздержание I
+state.harvestech.abstinence_2=Воздержание II
+state.harvestech.abstinence_3=Воздержание III
+commands.harvestech.abstinence.reset=Стадия воздержания у %s сброшена.
+commands.harvestech.abstinence.set=Стадия воздержания у %s установлена на %s.
+commands.harvestech.abstinence.ticks=Тики воздержания у %s установлены на %s (стадия %s).
+commands.harvestech.no_storage=У игрока нет хранилища биомассы.
+item.harvestech.rubber_rod.name=Прорезиненный стержень
+item.rubber_rod.name=Прорезиненный стержень
+tooltip.harvestech.rubber_rod.flexible=Гибкий прорезиненный стержень
+
+item.harvestech.blender_whisk.name=Венчик блендера
+item.harvestech.separator_whisk.name=Лезвие сепаратора
+
+tooltip.harvestech.separator.missing_blade=Не хватает лезвия

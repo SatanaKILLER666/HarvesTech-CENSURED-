@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "harvestech:mrna_synthesizer" },
+    "facing=south": { "model": "harvestech:mrna_synthesizer", "y": 180 },
+    "facing=west":  { "model": "harvestech:mrna_synthesizer", "y": 270 },
+    "facing=east":  { "model": "harvestech:mrna_synthesizer", "y": 90 }
+  }
+}

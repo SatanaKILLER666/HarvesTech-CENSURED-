@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "harvestech:protein_former" },
+    "facing=south": { "model": "harvestech:protein_former", "y": 180 },
+    "facing=west":  { "model": "harvestech:protein_former", "y": 270 },
+    "facing=east":  { "model": "harvestech:protein_former", "y": 90 }
+  }
+}

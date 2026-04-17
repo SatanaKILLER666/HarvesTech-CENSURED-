@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "harvestech:blender" },
+    "facing=south": { "model": "harvestech:blender", "y": 180 },
+    "facing=west":  { "model": "harvestech:blender", "y": 270 },
+    "facing=east":  { "model": "harvestech:blender", "y": 90 }
+  }
+}
