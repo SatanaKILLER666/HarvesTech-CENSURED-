@@ -5,6 +5,8 @@ import net.minecraft.client.model.ModelRenderer;
 import net.minecraft.entity.Entity;
 
 public class ManualHarvestPelvisModel extends ModelBase {
+    private static final float Y_OFFSET = -12.0F;
+
     private final ModelRenderer bbMain;
     private final ModelRenderer root;
     private final ModelRenderer waist;
@@ -26,11 +28,11 @@ public class ManualHarvestPelvisModel extends ModelBase {
         this.textureHeight = 32;
 
         this.bbMain = new ModelRenderer(this);
-        this.bbMain.setRotationPoint(0.0F, 0.0F, 0.0F);
+        this.bbMain.setRotationPoint(0.0F, Y_OFFSET, 0.0F);
         this.bbMain.setTextureOffset(1, 2).addBox(-1.575F, 11.375F, -5.725F, 3, 3, 0, 0.0F);
 
         this.root = new ModelRenderer(this);
-        this.root.setRotationPoint(0.0F, 0.0F, 0.0F);
+        this.root.setRotationPoint(0.0F, Y_OFFSET, 0.0F);
 
         this.waist = new ModelRenderer(this);
         this.waist.setRotationPoint(0.0F, 12.0F, 0.0F);
@@ -77,7 +79,7 @@ public class ManualHarvestPelvisModel extends ModelBase {
         this.root.addChild(this.leftLeg);
 
         this.bone = new ModelRenderer(this);
-        this.bone.setRotationPoint(0.0F, -8.0F, -2.0F);
+        this.bone.setRotationPoint(0.0F, Y_OFFSET - 8.0F, -2.0F);
         setRotateAngle(this.bone, 0.0F, (float) Math.toRadians(-90.0D), 0.0F);
         this.bone.setTextureOffset(23, 29).addBox(-0.35F, 18.625F, -1.0F, 1, 3, 2, 0.0F);
 
