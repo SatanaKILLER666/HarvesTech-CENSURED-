@@ -4,4 +4,4 @@
 
 ![text2](https://github.com/user-attachments/assets/703c2ecf-9b9d-475d-a209-29930bee39ee)
 
-[<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/733c4950-5cc7-47dc-88ef-65559e8a3402" />](https://www.patreon.com/posts/harverstech-155876617)
+releases/..
